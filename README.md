@@ -1,6 +1,12 @@
-# Creative Corner
+# CreativeNoobDuh Apps
 
-Static GitHub Pages site for Creative Corner.
+Static GitHub Pages hub for CreativeNoobDuh apps and tools.
+
+Current featured projects:
+
+- Bandeja Score
+- Padel Matchmaker
+- Valentines Reminder
 
 ## Local preview
 

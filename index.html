@@ -3,261 +3,205 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creative Corner</title>
+  <title>CreativeNoobDuh Apps</title>
   <meta
     name="description"
-    content="Creative Corner showcases apps, tools, and tutorials built for curious creators."
+    content="A home for apps and tools by CreativeNoobDuh, including Bandeja Score, Padel Matchmaker, and Valentines Reminder."
   >
+  <meta property="og:title" content="CreativeNoobDuh Apps">
+  <meta property="og:description" content="Apps for padel, tennis, useful reminders, and playful experiments.">
+  <meta property="og:image" content="assets/bandeja/feature-graphic.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;600;700;800;900&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="site-header">
-      <a class="brand" href="#top">Creative Corner</a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#apps">Apps</a>
-        <a href="#tools">Tools</a>
-        <a href="#tutorials">Tutorials</a>
-        <a href="#about">About Us</a>
-      </nav>
-    </header>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CreativeNoobDuh Apps home">
+      <span class="brand-mark">CN</span>
+      <span>CreativeNoobDuh Apps</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#apps">Apps</a>
+      <a href="#matchmaker">Padel Matchmaker</a>
+      <a href="#valentines">Valentines</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Build. Share. Explore.</p>
-          <h1>Creative Corner is where your apps and ideas get their spotlight.</h1>
-          <p class="hero-text">
-            A welcoming home for projects, practical tools, and tutorials from CreativeNoobDuh,
-            built to help people make something useful.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#apps">Browse Apps</a>
-            <a class="button button-secondary" href="#tutorials">See Tutorials</a>
-          </div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Small apps, real problems, built with personality</p>
+        <h1>Useful apps from the court, the calendar, and the chaos in between.</h1>
+        <p class="hero-text">
+          This is the main hub for projects by CreativeNoobDuh: padel and tennis tools, browser helpers,
+          reminder apps, and the experiments that turn into something practical.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#apps">Browse apps</a>
+          <a class="button button-secondary" href="bandejascore/">Open Bandeja Score</a>
         </div>
-        <div class="hero-panel">
-          <p class="panel-label">Featured</p>
-          <h2>One place for the apps you build and the lessons behind them.</h2>
-          <p>
-            Creative Corner is designed to grow from a simple showcase into a polished portfolio
-            for apps, experiments, and creator-friendly resources.
-          </p>
-          <div class="hero-stat-grid">
-            <article class="hero-stat">
-              <strong>1</strong>
-              <span>Published showcase app</span>
-            </article>
-            <article class="hero-stat">
-              <strong>4</strong>
-              <span>Core site sections ready to grow</span>
-            </article>
-          </div>
-          <ul class="feature-list">
-            <li>Showcase apps with screenshots and descriptions</li>
-            <li>Share useful tools and utilities</li>
-            <li>Teach people how to build alongside you</li>
-          </ul>
-        </div>
-      </section>
+      </div>
+      <div class="hero-stack" aria-label="Featured apps preview">
+        <article class="hero-card bandeja-card">
+          <img src="assets/bandeja/icon.png" alt="" class="app-icon">
+          <span>Bandeja Score</span>
+          <strong>Score. Record. Highlight.</strong>
+        </article>
+        <article class="hero-card match-card">
+          <span class="mini-mark">PM</span>
+          <span>Padel Matchmaker</span>
+          <strong>Browser extension for easier match planning.</strong>
+        </article>
+        <article class="hero-card valentine-card">
+          <span class="mini-mark">VR</span>
+          <span>Valentines Reminder</span>
+          <strong>Pink panic prevention for forgetful guys.</strong>
+        </article>
+      </div>
+    </section>
 
-      <section class="content-section" id="apps">
-        <div class="section-heading">
-          <p class="section-kicker">Apps</p>
-          <h2>Projects that deserve a front page</h2>
-          <p>
-            Give each app a clear summary, a strong visual, and a direct path to try it out.
-          </p>
-        </div>
-        <div class="card-grid">
-          <article class="card">
-            <p class="card-tag">Featured App</p>
-            <h3>Valentines Reminder</h3>
+    <section class="section intro-strip">
+      <span>Android apps</span>
+      <span>Browser extensions</span>
+      <span>Recording workflows</span>
+      <span>Coming-soon experiments</span>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="section-heading">
+        <p class="eyebrow">Project lineup</p>
+        <h2>The apps we have built so far.</h2>
+      </div>
+      <div class="app-grid">
+        <article class="app-card app-card-featured">
+          <div class="app-card-copy">
+            <p class="card-kicker">Android app</p>
+            <h3>Bandeja Score</h3>
             <p>
-              An Expo mobile app for tracking birthdays, anniversaries, and important reminders so
-              people never miss the moments that matter.
+              A tennis and padel scorebot built for big landscape scoring, Bluetooth remote control,
+              voice announcements, two-phone recording, scoreboard overlays, and automatic highlight reels.
             </p>
-            <ul class="detail-list">
-              <li>Persistent event storage with AsyncStorage</li>
-              <li>Recurring reminders for birthdays and anniversaries</li>
-              <li>Built-in text idea templates and notification support</li>
-            </ul>
+            <div class="tag-row">
+              <span>Remote scoring</span>
+              <span>Video overlay</span>
+              <span>Highlights</span>
+            </div>
             <div class="card-actions">
-              <a class="card-link" href="https://github.com/CreativeNoobDuh/ValentinesReminder">View Repo</a>
-              <a class="card-link" href="#tutorials">Story Behind It</a>
+              <a class="button button-primary" href="bandejascore/">Project page</a>
+              <span class="status-pill">Google Play coming soon</span>
             </div>
-          </article>
-          <article class="card">
-            <p class="card-tag">Portfolio Ready</p>
-            <h3>Future Releases</h3>
-            <p>
-              Leave room for upcoming launches so the site keeps growing as you ship more apps and
-              updates.
-            </p>
-            <a class="card-link" href="#about">Shape the next showcase</a>
-          </article>
-          <article class="card">
-            <p class="card-tag">Project Goals</p>
-            <h3>Simple, Useful, Personal</h3>
-            <p>
-              Present apps with plain-language summaries so visitors quickly understand the value of
-              what you are building.
-            </p>
-            <a class="card-link" href="#apps">Keep browsing</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section showcase-section">
-        <div class="showcase-art">
-          <img src="valentines-reminder-badge.svg" alt="Creative illustration for the Valentines Reminder app">
-        </div>
-        <div class="showcase-copy">
-          <p class="section-kicker">Featured Build</p>
-          <h2>Valentines Reminder helps people stay thoughtful before important dates sneak up.</h2>
-          <p>
-            This first highlighted project sets the tone for Creative Corner: practical apps with a
-            friendly purpose. It focuses on planning ahead, remembering meaningful dates, and making
-            follow-through easier with reminders and message ideas.
-          </p>
-          <div class="pill-row">
-            <span class="pill">Expo</span>
-            <span class="pill">React Native</span>
-            <span class="pill">Notifications</span>
-            <span class="pill">AsyncStorage</span>
           </div>
-        </div>
-      </section>
+          <img src="assets/bandeja/feature-graphic.png" alt="Bandeja Score feature graphic" class="feature-shot">
+        </article>
 
-      <section class="content-section accent-section" id="tools">
-        <div class="section-heading">
-          <p class="section-kicker">Tools</p>
-          <h2>Helpful utilities for everyday creators</h2>
+        <article class="app-card">
+          <p class="card-kicker">Browser extension</p>
+          <h3>Padel Matchmaker</h3>
           <p>
-            Show off small tools, helpers, or experiments that solve a problem quickly and clearly.
+            A helper extension for padel match planning and setup. It has a YouTube walkthrough so users can
+            follow the exact flow without guessing.
           </p>
-        </div>
-        <div class="split-layout">
-          <div class="info-block">
-            <h3>Why tools matter</h3>
-            <p>
-              Sometimes the most useful thing you build is a focused utility. This section gives
-              helpers, experiments, and micro-tools a polished place to live when you are ready to
-              share them.
-            </p>
+          <div class="tag-row">
+            <span>Padel</span>
+            <span>Extension</span>
+            <span>Guide included</span>
           </div>
-          <div class="mini-cards">
-            <article class="mini-card">
-              <h4>Quick Access</h4>
-              <p>Link straight to downloads, demos, or GitHub repos without extra clutter.</p>
-            </article>
-            <article class="mini-card">
-              <h4>Clear Value</h4>
-              <p>Explain the problem each tool solves in one sentence so people get it instantly.</p>
-            </article>
-            <article class="mini-card">
-              <h4>Organized Growth</h4>
-              <p>Keep side projects tidy as your collection expands beyond your first app release.</p>
-            </article>
+          <div class="card-actions">
+            <a class="button button-secondary" href="#matchmaker">Watch guide</a>
+            <span class="status-pill">Coming soon</span>
           </div>
-        </div>
-      </section>
+        </article>
 
-      <section class="content-section" id="tutorials">
-        <div class="section-heading">
-          <p class="section-kicker">Tutorials</p>
-          <h2>Teach people what you learn as you build</h2>
+        <article class="app-card">
+          <p class="card-kicker">Android app</p>
+          <h3>Valentines Reminder</h3>
           <p>
-            Turn your process into helpful guides so visitors can learn from your wins, fixes, and
-            experiments.
+            A reminder app for birthdays, anniversaries, Valentine's Day, Women's Day, and those dates that
+            absolutely should not become a last-minute emergency.
           </p>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="timeline-step">01</span>
-            <div>
-              <h3>Build Walkthroughs</h3>
-              <p>
-                Explain how an app works, what stack you used, and which problems you solved along
-                the way.
-              </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <span class="timeline-step">02</span>
-            <div>
-              <h3>Release Notes</h3>
-              <p>
-                Share what changed in each version so visitors can follow your progress over time.
-              </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <span class="timeline-step">03</span>
-            <div>
-              <h3>Beginner-Friendly Notes</h3>
-              <p>
-                Keep the tone approachable so your site feels useful to both new and experienced
-                builders.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
+          <div class="tag-row">
+            <span>Reminders</span>
+            <span>Idea bank</span>
+            <span>Coming soon</span>
+          </div>
+          <div class="card-actions">
+            <a class="button button-secondary" href="#valentines">See screenshots</a>
+            <span class="status-pill">Coming soon</span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      <section class="content-section resources-section">
-        <div class="section-heading">
-          <p class="section-kicker">Quick Links</p>
-          <h2>Make it easy for visitors to explore your work</h2>
+    <section class="section split-section" id="matchmaker">
+      <div class="section-copy">
+        <p class="eyebrow">Padel Matchmaker</p>
+        <h2>A small extension for making padel match setup less annoying.</h2>
+        <p>
+          The Matchmaker project is part of the same practical-app family as Bandeja Score: focused tools for
+          real court-life problems. The walkthrough below shows how it works and gives the project a proper
+          home while the release links are still being prepared.
+        </p>
+        <div class="tag-row">
+          <span>YouTube guide</span>
+          <span>Browser workflow</span>
+          <span>Padel utility</span>
         </div>
-        <div class="resource-grid">
-          <a class="resource-card" href="https://github.com/CreativeNoobDuh/creativenoobduh.github.io">
-            <h3>Website Repo</h3>
-            <p>See the GitHub Pages source for Creative Corner.</p>
-          </a>
-          <a class="resource-card" href="https://github.com/CreativeNoobDuh/ValentinesReminder">
-            <h3>Valentines Reminder Repo</h3>
-            <p>Browse the first featured app and track its updates.</p>
-          </a>
-          <a class="resource-card" href="#about">
-            <h3>About The Creator</h3>
-            <p>Learn what CreativeNoobDuh is building and where the site is headed next.</p>
-          </a>
-        </div>
-      </section>
+      </div>
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube.com/embed/cnwSlOgUgn4"
+          title="Padel Matchmaker instruction guide"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
 
-      <section class="content-section about-section" id="about">
-        <div class="section-heading">
-          <p class="section-kicker">About Us</p>
-          <h2>A creative space for sharing what you make</h2>
-        </div>
-        <div class="about-layout">
-          <p>
-            Creative Corner is the home for projects, experiments, and lessons learned from
-            CreativeNoobDuh. It is designed to feel warm, polished, and personal, so visitors
-            immediately understand what you build and why it matters.
-          </p>
-          <p>
-            As you add real apps and tools, this layout can grow into a full portfolio site with
-            project pages, screenshots, install links, and contact information.
-          </p>
-        </div>
-        <div class="about-note">
-          <h3>What comes next</h3>
-          <p>
-            The next upgrades I would recommend are project screenshots, direct install or demo
-            buttons, and a short personal intro about what kind of apps you want to become known
-            for.
-          </p>
-        </div>
-      </section>
-    </main>
-  </div>
+    <section class="section valentines-section" id="valentines">
+      <div class="section-heading">
+        <p class="eyebrow">Valentines Reminder</p>
+        <h2>Pink panic prevention, now with screenshots.</h2>
+        <p>
+          This one started as a playful app, but the idea is surprisingly practical: keep important dates,
+          favorites, reminder lead times, and gift/text ideas in one place.
+        </p>
+      </div>
+      <div class="phone-gallery">
+        <figure>
+          <img src="assets/valentines/dashboard.jpeg" alt="Valentines Reminder dashboard">
+          <figcaption>Reminder dashboard</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/valentines/expanded-reminder.jpeg" alt="Expanded Valentines Reminder event details">
+          <figcaption>Expanded event details</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/valentines/idea-bank.jpeg" alt="Valentines Reminder idea bank">
+          <figcaption>Idea bank</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/valentines/edit-reminder.jpeg" alt="Valentines Reminder edit screen">
+          <figcaption>Edit reminder</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Built by Mike B and CreativeNoobDuh.</h2>
+      </div>
+      <p>
+        This hub will grow as the apps mature. For now, it gives each project a clean public home, keeps
+        release links in one place, and gives future Play Store listings somewhere polished to point to.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
